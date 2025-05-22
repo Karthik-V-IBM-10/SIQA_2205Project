@@ -40,14 +40,14 @@ services:
     version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
-- serviceName: publisher:publisher
+- serviceName: jms2wayssl_publisher:jms2wayssl_publisher
   packages:
-  - name: SIQA_2205Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
   - name: JMS2waySSL
     version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2059
 - serviceName: project.siqa_2205.integrations:Sum
   packages:
   - name: SIQA_2205Project
